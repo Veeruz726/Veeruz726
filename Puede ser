@@ -11,14 +11,14 @@ local VirtualInputManager = game:GetService("VirtualInputManager")
 local player = game:GetService("Players").LocalPlayer
 
 local Settings = {
-    PointSlot = "Slot2",
-    NamekSlot = "Slot3",
+    PointSlot = "Slot3",
+    NamekSlot = "Slot2",
     Mode2 = true,
     WaitTimeSlotChange = 0.2,
     WaitTimeTalk = 0.5,
     ExtraTime = 0,
     KamiChatDelay = 0.3,
-    CharacterDelayTime = 0.0001,
+    CharacterDelayTime = 0.01,
     MaxPoints = math.huge,
     AutomaticRejoin = false,
     AutoStats = false,
